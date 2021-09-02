@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 margin: 0;
+padding: 0;
+border: 0;
 font-size: 18px;
 font-family: Helvica;
 
@@ -16,10 +22,9 @@ header {
     align-content: center;
    
 }
-
  h1 {
 color: rgb(0, 0, 0);
-font-size: 50px;
+font-size: 18px;
 font-family: 'Press Start 2P', cursive;
 margin:0px;
 
@@ -29,7 +34,7 @@ h2 {
 text-align: center;
 font-family: 'Press Start 2P';
 }
-.menu {
+.avatar {
 border-radius: 220px;
 width: 200px;
 border: 10px solid rgb(0, 0, 0);
@@ -40,37 +45,45 @@ align-items: center;
 
 }
 
-.sideimg {
-    float: left;
-   height:250px;
-    width:260px;
- 
-    border: 30px;
-border-radius: 500px;
+#sobre {
 position: relative;
-
-right: 35px;
 
 }
 
-.box2 p {
+#sobre img {
+border: 250%;
+border-radius: 5%;
+width: 42%;
+position: absolute;
+top: 45mm;
+right: 2%;
 
-  max-width: 500px;
- padding: left;
- margin:0;
- font-size:18px;
- display:inline-flex;
- padding-bottom: 40px;
-text-align: left;
+}
+
+
+
+.container {
+max-width: 850px;
 position: relative;
+
+}
+
+.container p {
+max-width: 65%;
+ margin:0;
+ font-size: 18px;
+ padding-bottom: 40px;
+padding-left: 5%;
+padding-right: 10%;
+
 
 }
 
 main {
 
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0px;
   text-align: left;
   font-family: Helvetica;
 }
