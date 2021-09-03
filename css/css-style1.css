@@ -6,12 +6,14 @@ body {
 margin: 0;
 padding: 0;
 border: 0;
-font-size: 18px;
-font-family: Helvica;
-
-
+font-size: 16px;
+font-family: monospace;
+background-image: url(https://img.wallpapersafari.com/desktop/1024/576/82/19/q13FED.jpg);
+background-size: 1600px;
+background-position: center;
+background-position-x: 50%;
+background-position-y: 70%;
 }
-
 header {
   background-color: rgb(15, 90, 228);
   text-align: center;
@@ -24,9 +26,10 @@ header {
 }
  h1 {
 color: rgb(0, 0, 0);
-font-size: 18px;
+font-size: 50px;
 font-family: 'Press Start 2P', cursive;
 margin:0px;
+font-weight: 900;
 
 }
 
@@ -47,16 +50,26 @@ align-items: center;
 
 #sobre {
 position: relative;
+border-style: groove;
+box-shadow: 50px 50px 50px  rgba(20, 112, 233, 0.19), 0 12px 10px rgba(0,0,0,0.23);
+border-collapse:collapse;
+border-color: cornflowerblue;
+border-radius: 50px;
+background-color:  rgb(226, 226, 226);
+
+
 
 }
 
 #sobre img {
-border: 250%;
+border: 3px cornflowerblue; 
 border-radius: 5%;
 width: 42%;
 position: absolute;
 top: 45mm;
 right: 2%;
+border-style: outset;
+box-shadow: 50px 50px 50px  rgba(20, 112, 233, 0.19), 0 12px 10px rgba(0,0,0,0.23);
 
 }
 
@@ -65,26 +78,30 @@ right: 2%;
 .container {
 max-width: 850px;
 position: relative;
+line-height: 1.40;
+height: 500px;
 
 }
 
 .container p {
 max-width: 65%;
  margin:0;
- font-size: 18px;
+ font-size: 16px;
  padding-bottom: 40px;
 padding-left: 5%;
-padding-right: 10%;
+padding-right: 15%;
+text-align: justify;
+
 
 
 }
 
 main {
 
-  max-width: 850px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0px;
-  text-align: left;
+  text-align: justify;
   font-family: Helvetica;
 }
 
@@ -97,6 +114,18 @@ text-decoration: none;
 
 }
 
+.about {
+max-width: 850px;
+border: solid cornflowerblue;
+text-align: justify;
+line-height: 1.4;
+padding: 0 20px 0 20px;
+box-shadow: 0 50px 50px rgba(20, 112, 233, 0.19), 0 12px 10px rgba(0,0,0,0.23);
+background-color: rgb(226, 226, 226);
+opacity: 1;
+border-radius: 30px;
+
+}
 
 
 footer {
