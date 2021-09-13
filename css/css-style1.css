@@ -1,5 +1,8 @@
+
+
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
+
 }
 
 body {
@@ -8,45 +11,61 @@ padding: 0;
 border: 0;
 font-size: 16px;
 font-family: monospace;
-background-image: url(https://img.wallpapersafari.com/desktop/1024/576/82/19/q13FED.jpg);
-background-size: 1600px;
-background-position: center;
-background-position-x: 50%;
-background-position-y: 70%;
+background-image: url("../img/12258aa80d5bbe28120b77537dcf8668.png");
+position:relative;
+background-position: top;
+
 }
 header {
-  background-color: rgb(15, 90, 228);
-  text-align: center;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  margin: 0px auto;
-    grid-area: navigation;
-    align-content: center;
-   
+background-color: #000000;
+text-align: center;
+padding-bottom: 3px;
+padding-top: 3px;
+margin: 0px auto;
+grid-area: navigation;
+  align-content: center;
+
 }
- h1 {
-color: rgb(0, 0, 0);
+h1 {
+color: rgb(255, 255, 255);
 font-size: 50px;
 font-family: 'Press Start 2P', cursive;
 margin:0px;
 font-weight: 900;
+
 
 }
 
 h2 {
 text-align: center;
 font-family: 'Press Start 2P';
+color: white;
+border: 10px solid black;
+background-color: black;
+display: block;
+width: 50%;
+margin: auto;
+border-radius: 10px;
+transform: scale(0.9);
+transform: skewX(-24deg);
 }
+
 .avatar {
 border-radius: 220px;
 width: 200px;
-border: 10px solid rgb(0, 0, 0);
+border: 10px solid rgb(255, 255, 255);
 padding-bottom: 0px;
 margin-bottom: 20px;
 margin: 0px;
 align-items: center;
 
+
 }
+
+.avatar:hover {
+  transform: scale(1.3);
+}
+
 
 #sobre {
 position: relative;
@@ -56,8 +75,14 @@ border-collapse:collapse;
 border-color: cornflowerblue;
 border-radius: 50px;
 background-color:  rgb(226, 226, 226);
+transform: scale(1);
 
 
+
+}
+#sobre h2{
+width: 50%;
+margin: auto;
 
 }
 
@@ -79,30 +104,34 @@ box-shadow: 50px 50px 50px  rgba(20, 112, 233, 0.19), 0 12px 10px rgba(0,0,0,0.2
 max-width: 850px;
 position: relative;
 line-height: 1.40;
-height: 500px;
+height: 50%;
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC) ;
+
 
 }
 
 .container p {
 max-width: 65%;
- margin:0;
- font-size: 16px;
- padding-bottom: 40px;
+margin:0;
+font-size: 16px;
+padding-bottom: 40px;
 padding-left: 5%;
 padding-right: 15%;
 text-align: justify;
-
-
+position: relative;
+top: 15px;
 
 }
 
 main {
 
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0px;
-  text-align: justify;
-  font-family: Helvetica;
+max-width: 800px;
+margin: 0 auto;
+padding: 0px;
+text-align: justify;
+font-family: Helvetica, sans-serif;
+display: block;
+
 }
 
 
@@ -119,9 +148,9 @@ max-width: 850px;
 border: solid cornflowerblue;
 text-align: justify;
 line-height: 1.4;
-padding: 0 20px 0 20px;
+padding: 10px 20px 0 20px;
 box-shadow: 0 50px 50px rgba(20, 112, 233, 0.19), 0 12px 10px rgba(0,0,0,0.23);
-background-color: rgb(226, 226, 226);
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC) ;
 opacity: 1;
 border-radius: 30px;
 
@@ -129,17 +158,31 @@ border-radius: 30px;
 
 
 footer {
-  text-align: center;
-  margin: 0 auto;
-  background-color: rgb(0, 0, 0);
-  font-family: monospace;
-  color: white;
-  padding: 40px;
+text-align: center;
+margin: 0 auto;
+background-color:#000000;
+font-family: monospace;
+color: white;
+padding: 40px;
+position: relative;
 
 }
 
 footer p {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 12px;
+margin: 0 auto;
+text-align: center;
+font-size: 12px;
+}
+
+@media (max-width: 414px)  {
+  p, #sobre p {
+  font-size: 10px;
+
+}
+
+#sobre img {
+width: 45%;
+height: 30%;
+
+}
 }
