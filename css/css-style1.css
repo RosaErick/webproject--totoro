@@ -177,6 +177,7 @@ font-size: 12px;
 @media (max-width: 414px)  {
   p, #sobre p {
   font-size: 10px;
+  display: relative;
 
 }
 
