@@ -1,5 +1,5 @@
 # Totoro Page
-## Welcome!
+
 this is the first ever web page i made. 
 It was a project for the course "Hand-Code Your First Website: HTML + CSS Basics".
 you can find the course in this [link](https://www.skillshare.com/classes/Hand-Code-Your-First-Website-HTML-CSS-Basics/1575146775/projects?via=custom-lists).
